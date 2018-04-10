@@ -20,19 +20,19 @@ var accessElementInArray = (x, y) => {
   return x[y]
 }
 
-var destructivelyRemoveElementFromBeginningOfArray = x => {
+var destructivelyRemoveElementFromBeginningOfArray = (x) => {
   return x.shift()
 }
 
-var removeElementFromBeginningOfArray = x => {
+var removeElementFromBeginningOfArray = (x) => {
   return x.slice(1)
 }
 
-var destructivelyRemoveElementFromEndOfArray = x => {
+var destructivelyRemoveElementFromEndOfArray = (x) => {
   x.pop()
   return x
 }
 
-var removeElementFromEndOfArray = x => {
+var removeElementFromEndOfArray = (x) => {
   return x.(slice, x.length - 1)
 }
