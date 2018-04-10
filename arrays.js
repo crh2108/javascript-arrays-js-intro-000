@@ -15,3 +15,7 @@ var addElementToEndOfArray = (x, y) => {
 var destructivelyAddElementToEndOfArray = (x, y) => {
   return x.push(y)
 }
+
+var accessElementInArray = (x, y) => {
+  return x[y]
+}
