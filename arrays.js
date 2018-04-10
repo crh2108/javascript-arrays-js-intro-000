@@ -30,7 +30,7 @@ var removeElementFromBeginningOfArray = (x) => {
 
 var destructivelyRemoveElementFromEndOfArray = (x) => {
   x.pop()
-  return x
+
 }
 
 var removeElementFromEndOfArray = (x) => {
