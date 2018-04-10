@@ -23,3 +23,7 @@ var accessElementInArray = (x, y) => {
 var destructivelyRemoveElementFromBeginningOfArray = x => {
   return x.shift()
 }
+
+var removeElementFromBeginningOfArray = x => {
+  return x.slice(1)
+}
