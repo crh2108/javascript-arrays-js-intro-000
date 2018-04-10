@@ -32,3 +32,7 @@ var destructivelyRemoveElementFromEndOfArray = x => {
   x.pop()
   return x
 }
+
+var removeElementFromEndOfArray = x => {
+  return x.(slice, x.length - 1)
+}
