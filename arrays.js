@@ -19,3 +19,7 @@ var destructivelyAddElementToEndOfArray = (x, y) => {
 var accessElementInArray = (x, y) => {
   return x[y]
 }
+
+var destructivelyRemoveElementFromBeginningOfArray = x => {
+  return x.shift()
+}
