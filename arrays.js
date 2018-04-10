@@ -1,9 +1,9 @@
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"]
 
 var addElementToBeginningOfArray = (x,y) => {
-  [y, ...x]
+  return [y, ...x]
 }
 
 var destructivelyAddElementToBeginningOfArray = (x, y) => {
-  x.push(y)
+  return x.push(y)
 }
